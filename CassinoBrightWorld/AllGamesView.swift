@@ -359,15 +359,7 @@ struct SAIJfjuauhguewehwgwe: ViewModifier {
 }
 
     
-extension View {
-    func fixlibhjesde() -> some View {
-        self.modifier(SAIJfjuauhguewehwgwe())
-    }
-    
-    
-   
-    
-}
+
 
 struct Swiper: ViewModifier {
     var onDismiss: () -> Void
@@ -385,10 +377,19 @@ struct Swiper: ViewModifier {
                                   .onEnded { value in
                                       if value.translation.width > 70 {
                                           onDismiss()
-                                          print("Swiped from left to right")
+                                  
                                       }
                                       self.offset = .zero
                                   }
             )
     }
+}
+extension View {
+    func paddifeo() -> some View {
+        self.modifier(SAIJfjuauhguewehwgwe())
+    }
+    
+    
+   
+    
 }

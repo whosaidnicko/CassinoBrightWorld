@@ -43,6 +43,7 @@ struct LoadiVie: View {
             
             NavigationLink("", destination: MenuView(), isActive: $linkMen)
         }
+        .paddifeo()
     }
 }
 extension Color {
